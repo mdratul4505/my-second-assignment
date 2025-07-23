@@ -57,5 +57,39 @@
 
 /* hero related style */
 .hero{
-    align-items:;
+    
+    margin-top: 108px;
+}
+.hero-title{
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 570px;
+}
+.hero-description{
+    font-size: 1.4rem;
+}
+
+
+    
+    
+    
+
+
+
+
+/* responsive media style*/
+@media screen and (max-width:576px) {
+    .hero,
+     .nav-links,
+     .navber
+     {
+        flex-direction: column-reverse;
+    }
+    .hero-container{
+        justify-items:center ;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    
 }
